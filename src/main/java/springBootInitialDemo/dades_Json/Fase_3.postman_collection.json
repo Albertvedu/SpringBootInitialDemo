@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "1d1247e7-db94-4f20-b1d8-b2744998f72b",
+		"name": "Fase_3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost/HelloWorld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}:{{port}}/v1/",
+					"host": [
+						"{{localhost}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"v1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/getNombre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}:{{port}}/v1/nombre",
+					"host": [
+						"{{localhost}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"v1",
+						"nombre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "desenvolupament/HelloWorld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{desenvolupament}}:8080/v1/",
+					"host": [
+						"{{desenvolupament}}"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "desenvolupament/getNombre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{desenvolupament}}:8080/v1/nombre",
+					"host": [
+						"{{desenvolupament}}"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"nombre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "preproduccio/HelloWorld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{preproduccio}}:8080/v1/",
+					"host": [
+						"{{preproduccio}}"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "preproduccio/getNombre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{preproduccio}}:8080/v1/nombre",
+					"host": [
+						"{{preproduccio}}"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"nombre"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
